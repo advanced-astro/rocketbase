@@ -19,6 +19,12 @@ const title = Astro.props.title
     line-height: 1;
     text-align: center;
     margin-bottom: 1em;
+
+    animation:
+      var(--animation-scale-down) reverse,
+      var(--animation-fade-out) reverse;
+    animation-timing-function: var(--ease-squish-5);
+    animation-duration: 1s;
   }
   .text-gradient {
     background-image: var(--accent-gradient);

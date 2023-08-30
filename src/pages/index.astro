@@ -66,6 +66,12 @@ const title = SITE.title
     background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
     padding: 1.5rem;
     border-radius: var(--radius-3);
+
+    animation:
+      var(--animation-scale-down) reverse,
+      var(--animation-fade-out) reverse;
+    animation-timing-function: var(--ease-squish-5);
+    animation-duration: 1s;
   }
   code {
     font-size: 0.8em;
