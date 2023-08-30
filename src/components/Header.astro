@@ -1,12 +1,16 @@
 ---
+interface Props {
+  title: string
+}
+
 const title = Astro.props.title
-// const title = Astro.props.title.replace(/Astro/gi, `<span class="text-gradient">Astro</span>`)
 ---
 
-<!-- <h1 class="text-gradient" set:html={title}></h1> -->
-<h1 class="text-gradient">
-  <a href="https://advanced-astro.dev">{title}</a>
-</h1>
+<header>
+  <h1 class="text-gradient">
+    <a href="https://advanced-astro.dev">{title}</a>
+  </h1>
+</header>
 
 <style>
   h1 {

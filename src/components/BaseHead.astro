@@ -1,0 +1,16 @@
+---
+import { SITE } from '~/data/config'
+
+interface Props {
+  title: string
+}
+
+const title = Astro.props.title
+---
+
+<meta charset="UTF-8" />
+<meta name="description" content={SITE.description} />
+<meta name="viewport" content="width=device-width" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="generator" content={Astro.generator} />
+<title>{title}</title>
