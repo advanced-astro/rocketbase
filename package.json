@@ -36,7 +36,7 @@
     "format:write": "prettier --cache --write src/**/*.astro"
   },
   "dependencies": {
-    "astro": "^3.0.2"
+    "astro": "^4.0.0"
   },
   "devDependencies": {
     "astro-compress": "^2.0.14",
