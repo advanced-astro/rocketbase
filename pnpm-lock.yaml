@@ -7,7 +7,7 @@ settings:
 dependencies:
   astro:
     specifier: ^4.0.0
-    version: 4.5.3
+    version: 4.5.4
 
 devDependencies:
   astro-compress:
@@ -1130,8 +1130,8 @@ packages:
       zod: 3.22.2
     dev: true
 
-  /astro@4.5.3:
-    resolution: {integrity: sha512-MEiLeAr3+THeadTZCQ4U+DI9VTTUZdYrPEPedSKmQwqnkiPkLjpLgx4yOcyH7Yp4t57+SWiC6W0rt7lPGM36Fg==}
+  /astro@4.5.4:
+    resolution: {integrity: sha512-qwMyBn36wXvaCzdCmdbyCxLQGG5hTa3saNdHdqS20Yn1b7Z7oqqcWOb2UjFuq6O8dFqZxU8Hq0/pGFscvsYtJA==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -1286,8 +1286,8 @@ packages:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
     dev: false
 
-  /binary-extensions@2.2.0:
-    resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
+  /binary-extensions@2.3.0:
+    resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
     dev: false
 
@@ -2169,7 +2169,7 @@ packages:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
     dependencies:
-      binary-extensions: 2.2.0
+      binary-extensions: 2.3.0
     dev: false
 
   /is-buffer@2.0.5:
