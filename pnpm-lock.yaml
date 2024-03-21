@@ -24,19 +24,19 @@ devDependencies:
     version: 1.0.0
   autoprefixer:
     specifier: ^10.4.15
-    version: 10.4.19(postcss@8.4.37)
+    version: 10.4.19(postcss@8.4.38)
   open-props:
     specifier: ^1.5.15
     version: 1.6.21
   postcss:
     specifier: ^8.4.29
-    version: 8.4.37
+    version: 8.4.38
   postcss-jit-props:
     specifier: ^1.0.13
-    version: 1.0.14(postcss@8.4.37)
+    version: 1.0.14(postcss@8.4.38)
   postcss-nesting:
     specifier: ^12.0.1
-    version: 12.1.0(postcss@8.4.37)
+    version: 12.1.0(postcss@8.4.38)
   prettier:
     specifier: ^3.0.3
     version: 3.2.5
@@ -1415,7 +1415,7 @@ packages:
       - typescript
     dev: false
 
-  /autoprefixer@10.4.19(postcss@8.4.37):
+  /autoprefixer@10.4.19(postcss@8.4.38):
     resolution: {integrity: sha512-BaENR2+zBZ8xXhM4pUaKUxlVdxZ0EZhjvbopwnXmxRUfqDmwSpC2lAi/QXvx7NRdPCo1WKEcEF6mV64si1z4Ew==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -1427,7 +1427,7 @@ packages:
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.37
+      postcss: 8.4.38
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -3389,17 +3389,17 @@ packages:
       find-up: 4.1.0
     dev: false
 
-  /postcss-jit-props@1.0.14(postcss@8.4.37):
+  /postcss-jit-props@1.0.14(postcss@8.4.38):
     resolution: {integrity: sha512-GimU4wen29Qr0DbDaAuWrj4NcErYR5x1rxcEFuPVAwF2HEZALydA8tpTMWEyThK7T2bwFTMFMA4G70pL55xUbw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       postcss: ^8.2.8
     dependencies:
-      postcss: 8.4.37
+      postcss: 8.4.38
       tiny-glob: 0.2.9
     dev: true
 
-  /postcss-nesting@12.1.0(postcss@8.4.37):
+  /postcss-nesting@12.1.0(postcss@8.4.38):
     resolution: {integrity: sha512-QOYnosaZ+mlP6plQrAxFw09UUp2Sgtxj1BVHN+rSVbtV0Yx48zRt9/9F/ZOoxOKBBEsaJk2MYhhVRjeRRw5yuw==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
@@ -3407,7 +3407,7 @@ packages:
     dependencies:
       '@csstools/selector-resolve-nested': 1.1.0(postcss-selector-parser@6.0.15)
       '@csstools/selector-specificity': 3.0.2(postcss-selector-parser@6.0.15)
-      postcss: 8.4.37
+      postcss: 8.4.38
       postcss-selector-parser: 6.0.15
     dev: true
 
@@ -3423,8 +3423,8 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
-  /postcss@8.4.37:
-    resolution: {integrity: sha512-7iB/v/r7Woof0glKLH8b1SPHrsX7uhdO+Geb41QpF/+mWZHU3uxxSlN+UXGVit1PawOYDToO+AbZzhBzWRDwbQ==}
+  /postcss@8.4.38:
+    resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
@@ -4339,7 +4339,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.20.2
-      postcss: 8.4.37
+      postcss: 8.4.38
       rollup: 4.13.0
     optionalDependencies:
       fsevents: 2.3.3
