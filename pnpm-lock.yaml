@@ -15,7 +15,7 @@ devDependencies:
     version: 2.2.22(typescript@5.4.5)
   astro-compressor:
     specifier: ^0.4.0
-    version: 0.4.0
+    version: 0.4.1
   astro-robots-txt:
     specifier: ^1.0.0
     version: 1.0.0
@@ -1318,8 +1318,8 @@ packages:
       - typescript
     dev: true
 
-  /astro-compressor@0.4.0:
-    resolution: {integrity: sha512-yw6wM+cjkdyAMc6HW2lrdinOxt64PwQuL5NCAe71cXF/5xjnyJhgg9nyyFE32oQtmtd5I/57Pyp/kPe9IfYAxg==}
+  /astro-compressor@0.4.1:
+    resolution: {integrity: sha512-IAgYAlxYRMolaptsFB9quH7RxX4eUeC4UfULCPhT+ILcg7m1kbaxuyUKqGg9Hh+KZ+FNPPDAz7DqUfl+HDWhQg==}
     dev: true
 
   /astro-robots-txt@1.0.0:
