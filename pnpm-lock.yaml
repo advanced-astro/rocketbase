@@ -27,7 +27,7 @@ devDependencies:
     version: 10.4.19(postcss@8.4.38)
   open-props:
     specifier: ^1.5.15
-    version: 1.7.1
+    version: 1.7.2
   postcss:
     specifier: ^8.4.29
     version: 8.4.38
@@ -3188,8 +3188,8 @@ packages:
     dependencies:
       mimic-fn: 4.0.0
 
-  /open-props@1.7.1:
-    resolution: {integrity: sha512-wFtnxfJLUUBbC8M7psngOArczAZyk6JX4ZnFE1GAeJosOfEaiXzJ3lmVbBWDE7xyIjTe9SWIaRbHIYB1XxqyFw==}
+  /open-props@1.7.2:
+    resolution: {integrity: sha512-RheKypVzZBCSZ6c5iJaFWG0OBqdtql3eRFXRYrSNLh6vGzU8NSAHuq9iJPj++DrpPGs1pqlRa2BelwwBHjX3Xg==}
     dev: true
 
   /ora@7.0.1:
