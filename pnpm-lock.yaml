@@ -29,7 +29,7 @@ importers:
         version: 10.4.19(postcss@8.4.38)
       open-props:
         specifier: ^1.5.15
-        version: 1.7.2
+        version: 1.7.3
       postcss:
         specifier: ^8.4.29
         version: 8.4.38
@@ -1826,8 +1826,8 @@ packages:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
     engines: {node: '>=12'}
 
-  open-props@1.7.2:
-    resolution: {integrity: sha512-RheKypVzZBCSZ6c5iJaFWG0OBqdtql3eRFXRYrSNLh6vGzU8NSAHuq9iJPj++DrpPGs1pqlRa2BelwwBHjX3Xg==}
+  open-props@1.7.3:
+    resolution: {integrity: sha512-AzTMcnpVEM06oUUhcJmM5Ip0V7S/lSNBKKGz9R6Q8W3wRuJcgEQgXNl4l1K8/STyKWgs9F/2a2dQzq9RTUfMWg==}
 
   ora@7.0.1:
     resolution: {integrity: sha512-0TUxTiFJWv+JnjWm4o9yvuskpEJLXTcng8MJuKd+SzAzp2o+OP3HWqNhB4OdJRt1Vsd9/mR0oyaEYlOnL7XIRw==}
@@ -4547,7 +4547,7 @@ snapshots:
     dependencies:
       mimic-fn: 4.0.0
 
-  open-props@1.7.2: {}
+  open-props@1.7.3: {}
 
   ora@7.0.1:
     dependencies:
