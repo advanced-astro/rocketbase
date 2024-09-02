@@ -26,19 +26,19 @@ importers:
         version: 1.0.0
       autoprefixer:
         specifier: ^10.4.15
-        version: 10.4.20(postcss@8.4.43)
+        version: 10.4.20(postcss@8.4.44)
       open-props:
         specifier: ^1.5.15
         version: 1.7.6
       postcss:
         specifier: ^8.4.29
-        version: 8.4.43
+        version: 8.4.44
       postcss-jit-props:
         specifier: ^1.0.13
-        version: 1.0.14(postcss@8.4.43)
+        version: 1.0.14(postcss@8.4.44)
       postcss-nesting:
         specifier: ^12.0.1
-        version: 12.1.5(postcss@8.4.43)
+        version: 12.1.5(postcss@8.4.44)
       prettier:
         specifier: ^3.0.3
         version: 3.3.3
@@ -1631,8 +1631,8 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  postcss@8.4.43:
-    resolution: {integrity: sha512-gJAQVYbh5R3gYm33FijzCZj7CHyQ3hWMgJMprLUlIYqCwTeZhBQ19wp0e9mA25BUbEvY5+EXuuaAjqQsrBxQBQ==}
+  postcss@8.4.44:
+    resolution: {integrity: sha512-Aweb9unOEpQ3ezu4Q00DPvvM2ZTUitJdNKeP/+uQgr1IBIqu574IaZoURId7BKtWMREwzKa9OgzPzezWGPWFQw==}
     engines: {node: ^10 || ^12 || >=14}
 
   preferred-pm@4.0.0:
@@ -2770,14 +2770,14 @@ snapshots:
       - terser
       - typescript
 
-  autoprefixer@10.4.20(postcss@8.4.43):
+  autoprefixer@10.4.20(postcss@8.4.44):
     dependencies:
       browserslist: 4.23.3
       caniuse-lite: 1.0.30001646
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
-      postcss: 8.4.43
+      postcss: 8.4.44
       postcss-value-parser: 4.2.0
 
   axobject-query@4.1.0: {}
@@ -3767,16 +3767,16 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  postcss-jit-props@1.0.14(postcss@8.4.43):
+  postcss-jit-props@1.0.14(postcss@8.4.44):
     dependencies:
-      postcss: 8.4.43
+      postcss: 8.4.44
       tiny-glob: 0.2.9
 
-  postcss-nesting@12.1.5(postcss@8.4.43):
+  postcss-nesting@12.1.5(postcss@8.4.44):
     dependencies:
       '@csstools/selector-resolve-nested': 1.1.0(postcss-selector-parser@6.1.0)
       '@csstools/selector-specificity': 3.1.1(postcss-selector-parser@6.1.0)
-      postcss: 8.4.43
+      postcss: 8.4.44
       postcss-selector-parser: 6.1.0
 
   postcss-selector-parser@6.1.0:
@@ -3786,7 +3786,7 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  postcss@8.4.43:
+  postcss@8.4.44:
     dependencies:
       nanoid: 3.3.7
       picocolors: 1.0.1
@@ -4222,7 +4222,7 @@ snapshots:
   vite@5.4.2(@types/node@20.14.12)(lightningcss@1.25.1)(terser@5.31.3):
     dependencies:
       esbuild: 0.21.5
-      postcss: 8.4.43
+      postcss: 8.4.44
       rollup: 4.21.2
     optionalDependencies:
       '@types/node': 20.14.12
