@@ -16,8 +16,8 @@ importers:
         specifier: ^2.0.14
         version: 2.3.5(@types/node@22.5.0)(rollup@4.28.0)(typescript@5.4.5)
       astro-compressor:
-        specifier: ^0.4.0
-        version: 0.4.1
+        specifier: ^1.0.0
+        version: 1.0.0
       astro-robots-txt:
         specifier: ^1.0.0
         version: 1.0.0
@@ -666,8 +666,8 @@ packages:
   astro-compress@2.3.5:
     resolution: {integrity: sha512-TWZr/7IbIyi5e4vjuVN8UgkKMOhFqH25466Ct1jIG9UoDz50uNP5iPFQ2zPqO/Oe2541kYU7CchZt7cJ32w0Wg==}
 
-  astro-compressor@0.4.1:
-    resolution: {integrity: sha512-IAgYAlxYRMolaptsFB9quH7RxX4eUeC4UfULCPhT+ILcg7m1kbaxuyUKqGg9Hh+KZ+FNPPDAz7DqUfl+HDWhQg==}
+  astro-compressor@1.0.0:
+    resolution: {integrity: sha512-MNGRmjIsb73BIJivbU/HnTbPu5CEFvXp1NCev0bpsuK/cp4cCPX6C1omUPXzw2oQbtKv0phTTTtEk+h20SrF1Q==}
 
   astro-robots-txt@1.0.0:
     resolution: {integrity: sha512-6JQSLid4gMhoWjOm85UHLkgrw0+hHIjnJVIUqxjU2D6feKlVyYukMNYjH44ZDZBK1P8hNxd33PgWlHzCASvedA==}
@@ -2522,7 +2522,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro-compressor@0.4.1: {}
+  astro-compressor@1.0.0: {}
 
   astro-robots-txt@1.0.0:
     dependencies:
